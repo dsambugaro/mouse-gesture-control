@@ -181,6 +181,7 @@ print('**********************************************************************')
 while True:
     # grab the current frame
     frame = vs.read()
+    frame = cv2.flip(frame,1)
 
     # handle the frame from VideoCapture or VideoStream
     frame = frame[1] if args.get("video", False) else frame
