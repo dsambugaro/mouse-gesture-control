@@ -1,0 +1,5 @@
+imutils
+numpy
+python3-xlib
+pyautogui
+opencv-contrib-python
